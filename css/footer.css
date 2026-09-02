@@ -6,6 +6,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 .footer .accent {
     font-family: "Raleway", sans-serif;
@@ -22,7 +23,10 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    margin-top: 16px;
 }
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
