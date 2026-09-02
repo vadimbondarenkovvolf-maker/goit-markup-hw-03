@@ -28,3 +28,18 @@
     text-align: center;
     color: #434455;
 }
+.container-team {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 0 15px;
+
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 112px;
+    margin-right: 156px;
+    margin-left: 156px;
+    margin-bottom: 120px;
+}

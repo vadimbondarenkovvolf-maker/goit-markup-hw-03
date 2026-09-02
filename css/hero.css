@@ -6,6 +6,7 @@
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff; 
+   max-width: 496px;
 }
 .hero .button {
     background: #4d5ae5;
@@ -13,6 +14,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    max-width: 169px;
 }
 .button:hover,
 .button:focus {
@@ -20,4 +22,10 @@
 }
 .hero {
     background-color: #2e2f42;
+}
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }

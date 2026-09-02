@@ -6,6 +6,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     
 }
 .header .accent {
@@ -29,6 +30,7 @@
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    margin-left: 360;
 }
 .header {
     background: #fff;
@@ -40,4 +42,27 @@
 .header .contacts:hover,
 .header .contacts:focus {
     color: #404bbf;
+    
+}
+.container-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  
+}
+
+.ul-menu {
+  display: flex;
+  padding: 24px 0;
+  width: 253px;
+  gap: 40px;
+  flex-grow: 1;
+}
+.ul-contacts {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  width: 344px;
+  margin-left: 0 auto;
 }
