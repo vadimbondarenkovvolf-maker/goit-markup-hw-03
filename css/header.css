@@ -20,7 +20,7 @@
 }
 .header .nav-menu {
     font-weight: 500;
-    line-height: 1.5;
+    display: block;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -30,10 +30,11 @@
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    margin-left: 360;
+    margin-left: 360px;
 }
 .header {
     background: #fff;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header .nav-menu:hover,
 .header .nav-menu:focus {
@@ -45,24 +46,24 @@
     
 }
 .container-header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  
-  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .ul-menu {
-  display: flex;
-  padding: 24px 0;
-  width: 253px;
-  gap: 40px;
-  flex-grow: 1;
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
 }
 .ul-contacts {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0;
-  width: 344px;
-  margin-left: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+a.nav-menu {
+    padding: 24px 0;
+}
+a.contacts {
+    padding: 24px 0;
 }
