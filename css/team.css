@@ -22,6 +22,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 .team-list .position {
     font-weight: 400;
@@ -38,4 +39,7 @@
 .team-list {
     display: flex;
     gap: 24px;
+}
+.member-content-wrapper {
+    padding: 32px 16px;
 }

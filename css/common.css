@@ -37,9 +37,6 @@ button {
   padding: 0 15px;
   width: 1158px;
   margin: 0 auto;
-  max-width: 1440px;
-  margin-left: 0;
-  margin-right: 0;
 }
 .sr-only {
   position: absolute;
